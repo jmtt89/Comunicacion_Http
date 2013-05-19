@@ -16,10 +16,12 @@ Fue implementado en C, mediante Sockets y protocolo HTTP para la comunicacion
 Systaxis
 --------
 
->> verific [-t <num_segundos>][-d <directorio>][-a <archivo>]
+--> verific [-t {num_segundos}][-d {directorio}][-a {archivo}]
 
 -t <num_segundos> : numero de segundos que deben transcurrir entre dos revisiones consecutivas de los directorios monitorizados.
+
 -d <directorio> : a direccion absoluta de un directorio que se desea monitorizar, para ver si en el ha ocurrido algun cambio desde la ultima vez que se efectuo la revision.
+
 -a <archivo> : archivo en formato de texto plano en el cual cada linea contendra un URL que correspondera a un directorio cuya informacion se desea verificar.
 
 Integrantes
